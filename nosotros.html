@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <style>
+         header {
+            margin-bottom: 20px; /* Separación del contenido principal */
+        }
+        footer {
+            margin-top: 20px; /* Separación del contenido principal */
+        }
+        main {
+            max-width: 70%;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            border: 2px solid #007bff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1.nosotros {
+            text-align: center;
+            color: #007bff;
+        }
+        h1.Subb {
+            color: #2112ff; 
+            margin-top: 20px;
+            font-size: 30px;
+        }
+        h2.Sub {
+            color: #007bff;
+            margin-top: 20px;
+        }
+        article {
+            margin-bottom: 30px;
+        }
+        .contenido-somos, .contenido-mision, .contenido-vision {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        p {
+
+            margin: 0 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <!--Sporte-->
+        <div class="container-hero">
+            <div class="container hero">
+                <div class="customer-support">
+                    <i class="fa-solid fa-headset"></i>
+                    <div class="content-customer-support">
+                        <span class="text">Soporte al cliente</span>
+                        <span class="number">912-872-283</span>
+                    </div>
+                </div>
+                <!--Logo-->
+                <div class="container-logo">
+                    <i class="fa-regular fa-building"></i>
+                    <h1 class="logo"><a href="/">FGA TECH</a></h1>
+                </div>
+                <!-- Carrito -->
+                <div class="container-user">
+                    <i class="fa-solid fa-user"></i>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <div class="content-shopping-cart">
+                        <span  class="text">Carrito</span>
+                        <span class="number">(0)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Barra de Navegador -->
+        <div class="container-navbar">
+            <nav class="navbar container">
+                <i class="fa-solid fa-bars" style="color: #000000;"></i>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="#">Cuenta</a></li>
+                    <li><a href="#">Novedades</a></li>
+                    <li><a href="politicas.html">Politicas</a></li>
+                </ul>
+                <!-- Formulario de busqueda -->
+                <form class="search-form">
+                    <input type="search" placeholder="Buscar...">
+                    <button class="btn-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                </form>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="Seccion-somos-uno">
+            <center><h1 class="Subb">NOSOTROS</h1></center> 
+            <h2 class="Sub">Somos</h2>
+            <article class="contenido-somos">
+                <p>
+                    Somos una empresa dedicada a ofrecer dispositivos de audio de alta 
+                    calidad y tecnología avanzada para mejorar la experiencia de nuestros 
+                    clientes en cada aspecto de su vida diaria. Nos especializamos en la 
+                    venta de audífonos, parlantes para PC y smartwatches, con el objetivo 
+                    de proporcionar productos innovadores y de vanguardia que se adapten a 
+                    las necesidades de un estilo de vida moderno y conectado.
+                </p>
+                <img class="imagen-somos" src="img/Somos.jpg" alt="Imagen de nosotros">
+            </article>
+        </section>
+    
+        <section class="Seccion-mision-dos">
+            <h2 class="Sub">Misión</h2>
+            <article class="contenido-mision">
+                <img class="imagen-mision" src="img/mision.jpg" alt="Imagen de misión">
+                <p>
+                    Nuestra misión es proporcionar a nuestros clientes la mejor experiencia 
+                    en sonido y tecnología, a través de una oferta variada de productos de 
+                    alta calidad como audífonos, parlantes de PC y smartwatches. Nos esforzamos 
+                    por innovar constantemente, ofreciendo soluciones que mejoren el día a día 
+                    de nuestros clientes, garantizando siempre un excelente servicio y satisfacción.
+                </p>
+            </article>
+        </section>
+    
+        <section class="Seccion-vision-tres">
+            <h2 class="Sub">Visión</h2>
+            <article class="contenido-vision">
+                <p>
+                    Ser una empresa líder en el sector de tecnología de audio y dispositivos 
+                    inteligentes, reconocida por la calidad de nuestros productos, nuestra 
+                    innovación continua y el impacto positivo en la vida de nuestros clientes. 
+                    Queremos ser la primera opción para aquellos que buscan lo último en tecnología.
+                </p>
+                <img class="imagen--vision" src="img/vision.webp" alt="Imagen de visión">
+            </article>
+        </section>
+    </main>
+     <!-- Pie de Pagina -->
+     <footer class="footer">
+        <div class="container container-footer">
+            <div class="menu-footer">
+                <div class="contact-info"> <!-- Sección de Información de Contacto -->
+                    <p class="title-footer">Información del Contacto</p>
+                    <ul>
+                        <li>
+                            Teléfono: 912-872-283
+                        </li>
+                        <li>
+                            Fax: 55555300
+                        </li>
+                        <li>
+                            Email: fgatech@gmail.com
+                        </li>
+                    </ul>
+                    <div class="social-icons"> <!-- Contenedor de los iconos -->
+                        <a href="https://www.facebook.com/profile.php?id=61566566180686"><span class="Facebook"><i class="fa-brands fa-facebook-f"></i></span></a>
+                        <a href="https://x.com/home"><span class="Twitter"><i class="fa-brands fa-twitter"></i></span></a>
+                        <a href="https://www.youtube.com/"><span class="Youtube"><i class="fa-brands fa-youtube"></i></span></a>
+                        <a href="https://www.instagram.com/fga_tech/"><span class="Instagram"><i class="fa-brands fa-instagram"></i></span></a>
+                    </div>
+                </div>
+                <div class="information"> <!-- Sección de Información General -->
+                    <p class="title-footer">Información</p> 
+                    <ul>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Novedades</a></li>
+                        <li><a href="#">Políticas de Privacidad</a></li>
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#">Contactános</a></li>
+                    </ul>
+                </div>
+                <div class="my-account"> <!-- Sección de Información de la Cuenta -->
+                    <p class="title-footer">Mi cuenta</p>
+    
+                    <ul>
+                        <li><a href="#">Mi cuenta</a></li>
+                        <li><a href="#">Historial de pedidos</a></li>
+                        <li><a href="#">Lista de pedidos</a></li>
+                        <li><a href="#">Boletín</a></li>
+                        <li><a href="#">Reembolsos</a></li>
+                    </ul>
+                </div>
+    
+                <div class="newsletter"> <!-- Sección para la suscripción al boletín informativo. --> 
+                    <p class="title-footer">Boletín informattivo</p>
+                    <div class="content">
+                        <p>
+                            Suscríbete a nuestsros boletines ahora y mantente al 
+                            día con nuevas colecciones y ofertas exclusivas.
+                        </p>
+                        <input type="email" placeholder="Ingresa el correro aquí...">
+                        <button>Suscríbete</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="copyright">
+                <p>
+                    Desarrollado por FGA TECH &copy; 2024
+                </p>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <script src="https://kit.fontawesome.com/c829b4c890.js" crossorigin="anonymous"></script>
+    
+    </body>
+    </html>
